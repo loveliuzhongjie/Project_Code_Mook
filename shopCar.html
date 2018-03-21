@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>购物车</title>
+    <link type="text/css" rel="stylesheet" href="style/reset.css">
+    <link type="text/css" rel="stylesheet" href="style/base.css">
+</head>
+<body>
+ <div class="headBar">
+     <div class="topBar">
+         <div class="comWidth">
+             <div class="leftArea">
+                 <a href="#" class="collection">收藏慕课</a>
+             </div>
+             <div class="rightArea">
+                 欢迎来到慕课网！
+                  <a href="">[登录]</a>
+                  <a href="">[免费注册]</a>
+             </div>
+         </div>
+     </div>
+     <div class="logoBar">
+         <div class="comWidth">
+             <div class="logoArea">
+                 <a href="#" class="logo"><img src="images/logo.png" alt="慕课网"></a>
+             </div>
+
+         </div>
+     </div>
+ </div>
+ <!--主体区域-->
+ <div class="comWidth">
+      <div class="act_panel">
+          <h3 class="panel_title">收货信息</h3>
+          <div class="act_content">
+              <p><i>*</i><span>选择地区：</span><span class="comboselect"><a href="#">北京市 海淀区 五环内</a></span></p>
+              <p> <i>*</i><span>详细地址：</span><input class="place_text" type="text" placeholder="最多输入20个汉字"></p>
+              <p><i>*</i><span>&nbsp;收&nbsp;货&nbsp;人：</span><input class="user_text" type="text" placeholder="最多10个汉字" ></p>
+              <p><i>*</i><span>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</span><input class="cellphone_text" type="text" placeholder="如13820290413"><span>&nbsp;或固定电话</span>
+                  <input type="text" class="number1" placeholder="区号"><span>&nbsp;-</span><input type="text" class="number2" placeholder="电话号码"><span>&nbsp;-</span><input type="text" class="numbe3" placeholder="分机号">
+              </p>
+              <div class="confrim_button"><input type="button" value="确认收货地址"></div>
+          </div>
+      </div>
+     <div class="act_panel">
+         <h3 class="panel_title">支付方式</h3>
+         <div class="act_content">
+             <p class="pay_content">
+                 <input type="radio" id="pay_label1"  name="pay_by" value="0"><label for="pay_label1" >微信支付:</label><img src="images/icon/wechat.png"><span>用微信扫一扫就能支付！</span>
+                 <br><input type="radio" id="pay_label2" name="pay_by" value="1"><label for="pay_label2">货到付款:</label><span>送货上门后再付款，使用现金或刷银行卡</span>
+             </p>
+         </div>
+     </div>
+     <div class="act_panel">
+         <h3 class="panel_title">发票信息</h3>
+         <div class="act_content">
+             <p class="tax_check"><input type="checkbox"checked="checked">需要发票</p>
+             <p><i>*</i><span>发票类型：</span> <select><option value="1" selected="selected">商业零售发票</option><option value="2">其他发票</option></select> </p>
+             <p><i>*</i><span>发票抬头：</span><select><option value="1" selected="selected">个人</option><option value="2" selected="selected">商业</option></select> <input class="tax_text" type="text" placeholder="最多输入20个汉字"></p>
+             <div class="button_group"><input class="confirm" type="button" value="确定"><input class="cancel" type="button" value="取消"></div>
+         </div>
+     </div>
+     <div class="act_panel ">
+         <h3 class="panel_title clearfix">送货清单<a class="back_to_shopcar" href="#">返回购物车修改</a></h3>
+     </div>
+     <div class="act_panel pay">
+         <h3 class="panel_title">订单结算</h3>
+         <p>总计 <span>1455.00</span></p>
+         <div class="pay_button"><input type="button" value="提交订单"></div>
+     </div>
+  </div>
+<!--底部-->
+<div class="footer">
+    <p><a href="#">慕课简介</a><i>|</i><a href="#">慕课公告</a><i>|</i><a href="#">招贤纳士</a><i>|</i><a href="#">联系我们</a><i>|</i><a href="#">客服热线：400-675-1234</a></p>
+    <p>Copyright © 2006 - 2014 慕课版权所有&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+    <p>
+        <a href=""><img src="images/footerImg.png" alt="footer"></a>
+        <a href=""><img src="images/footerImg.png" alt="footer"></a>
+        <a href=""><img src="images/footerImg.png" alt="footer"></a>
+        <a href=""><img src="images/footerImg.png" alt="footer"></a>
+    </p>
+</div>
+</body>
+</html>
